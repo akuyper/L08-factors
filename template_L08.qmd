@@ -2,7 +2,7 @@
 title: "L08 Factors"
 subtitle: "Data Science 1 with R (STAT 301-1)"
 author: "YOUR NAME"
-pagetitle: "L07 YOUR NAME"
+pagetitle: "L08 YOUR NAME"
 date: today
 
 format:
@@ -105,7 +105,7 @@ YOUR SOLUTION HERE
 
 ### Exercise 4
 
-What happens when you are defining levels in a `factor` with the `levels` argument and either do not define a level that exists in the dataset or have a typo in a level that exists in the dataset?  
+What happens when you are defining levels in a `factor` with the `levels` argument and either do not define a level that exists in the dataset or have a typo in a level that exists in the dataset? Try it with both `factor()` and `fct()` and describe how they differ.
 
 ::: {.callout-tip icon="false"}
 ## Solution
@@ -129,7 +129,7 @@ YOUR SOLUTION HERE
 
 ### Exercise 6
 
-The variable `year` is currently coded as an integer. Demonstrate how to convert this variable to a `factor`.
+The variable `year` is currently coded as an integer. Demonstrate how to convert this variable to a `factor`. How many levels does it have?
 
 ::: {.callout-tip icon="false"}
 ## Solution
